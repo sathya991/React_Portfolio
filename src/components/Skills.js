@@ -3,7 +3,7 @@ import extraGif from './../Assets/extraGif.gif';
 const myBio = "Hi, I'm G Satya Srivatsav, a React developer with 1 year of experience building web applications. I specialize in developing reusable and scalable components using React, Redux, and TypeScript. My expertise also includes building Mobile Applications using Flutter. I prioritize code quality, maintainability, and testing to ensure robust and bug-free applications. When I'm not coding, I enjoy learning new technologies and staying up-to-date with industry trends. If you're looking for a skilled React developer for your next project, feel free to reach out to me."
 function Skills(){
     return (
-    <div className="Skills">
+    <div className="Skills" id='skills'>
         <div className='paddingDiv'>
         <div className='singleLine'>
             <img id='extraGif' src={extraGif} alt="Decoration"/>

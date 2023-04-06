@@ -1,24 +1,24 @@
 import mainGif from './../Assets/mainGif.gif';
 import {
-    NavLink
-} from 'react-router-dom';
+   Link
+} from 'react-scroll';
 function Dashboard(){
     return (
-    <div className="Dashboard">
+    <div className="Dashboard" id='dashboard'>
         <nav className="navbar">
            <h1 className="portfolioTitleNavBar">Porfolio</h1>
             <ul>
                 <li>
-                    <NavLink className="linkStyle" to='/dashboard'>Dashboard</NavLink>
+                    <Link className="linkStyle" to="dashboard" spy={true} smooth={true} offset={50} duration={500}>Dashboard</Link>
                 </li>
                 <li>
-                    <NavLink className="linkStyle" to='/skills'>Skills</NavLink>
+                    <Link className="linkStyle" to='skills' spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
                 </li>
                 <li>
-                    <NavLink className="linkStyle" to='/projects'>Projects</NavLink>
+                    <Link className="linkStyle" to='projects' spy={true} smooth={true} offset={50} duration={500}>Projects</Link>
                 </li>
                 <li>
-                    <NavLink className="linkStyle" to='/contact'>Contact</NavLink>
+                    <Link className="linkStyle" to='contact' spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
                 </li>
             </ul>
             <h1 className='contactmeButton'>Contact Me</h1>

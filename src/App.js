@@ -1,4 +1,3 @@
-import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Contact from './components/Contact';
 import Dashboard from './components/Dashboard';
@@ -13,12 +12,6 @@ function App() {
       <Projects />
       <Contact />
     </div>
-    <Routes>
-        <Route exact path="/dashboard" element={<Dashboard/>}/>
-        <Route exact path="/skills" element={<Skills/>}/>
-        <Route exact path="/projects" element={<Projects/>}/>
-        <Route exact path="/contact" element={<Contact/>}/>
-      </Routes>
       </div>
   );
 }

@@ -50,6 +50,7 @@ p,h1{
   list-style: none;
   margin-left: 5rem;
   gap:5rem;
+  cursor: pointer;
 }
 .navbar .linkStyle{
   color:inherit;
