@@ -1,0 +1,182 @@
+
+.Dashboard {
+  width: 100vw;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+.paddingDiv{
+  padding:0 6% 0 6%;
+}
+
+.Skills{
+  width: 100vw;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.Projects{
+  width: 100vw;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.Contact{
+  width: 100vw;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+p,h1{
+  margin: 0;
+}
+
+.navbar{
+ padding: 1.5% 3% 1.5% 3%;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 2rem;
+ box-shadow: 0 0 1px rgba(170,252,78, 0.3);
+ margin-bottom: 7rem;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 5rem;
+  gap:5rem;
+}
+.navbar .linkStyle{
+  color:inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .linkStyle:hover{
+  color: rgb(170,258,78);
+}
+
+.contactmeButton{
+  margin-left: 32%;
+  vertical-align:middle;
+  border: 1px solid white;
+  padding: 0.8rem;
+  font-weight: 300;
+  border-radius: 2%;
+}
+
+.portfolioTitleNavBar{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.contactmeButton:hover{
+  border-color: rgb(170,258,78);
+  cursor: pointer;
+}
+
+.mainText{
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.mainText h1{
+  font-size: 5rem;
+}
+
+.mainText p{
+  font-size: 2rem;
+}
+
+.mainText img{
+  height: 60vh;
+  width: 70vb;
+}
+
+.highlightColor{
+  color: rgb(170,258,78);
+  font-weight: 700;
+}
+
+.aboutMe{
+  width: 30vw;
+}
+
+.descriptionText{
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.singleLine{
+  display: flex;
+  justify-content:space-between;
+  gap: 1rem;
+}
+
+.singleLine #extraGif{
+  width: 30vw;
+  height: 50vh;
+  padding-top: 15vh;
+}
+
+.skillHeading{
+  text-align: center;
+}
+
+.skillList{
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillList li{
+  list-style: none;
+  border: 0.2px solid white;
+  padding: 1.5rem;
+  width: 8rem;
+  text-align: center;
+}
+
+.contactHeading{
+  text-align: center;
+  font-size: 10rem;
+  margin-bottom: 4rem;
+}
+
+.contactSingleLine{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.connectionButton{
+  vertical-align:middle;
+  border: 1px solid white;
+  padding: 0.5rem;
+  font-weight: 300;
+  background-color: rgb(170,258,78);
+  color: black;
+  cursor: pointer;
+}
+
+.resumeButton{
+  width: 15vw;
+  margin: 3rem 0 0 5.5rem;
+  text-align: center;
+}
+
+.colorText{
+  border: 0.2px solid black;
+  background-color: rgb(170,258,78);
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
